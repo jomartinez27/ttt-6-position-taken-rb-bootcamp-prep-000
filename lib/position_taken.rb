@@ -2,4 +2,5 @@
 def position_taken?(board, pos)
   return true unless board[pos] == " "
   return true unless board[pos] == ""
+  false
 end
