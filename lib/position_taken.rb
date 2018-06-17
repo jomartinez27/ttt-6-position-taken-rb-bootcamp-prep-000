@@ -1,4 +1,4 @@
 # code your #position_taken? method here!
 def position_taken?(board, pos)
-  board[pos].class == String
+  board[pos].empty?
 end
